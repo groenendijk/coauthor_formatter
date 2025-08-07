@@ -1,0 +1,10 @@
+Package: coauthorFormatter
+Title: Format Coauthor and Affiliation List for Scientific Manuscripts
+Version: 0.1.0
+Authors@R: person("Peter", "Groenendijk", email = "peterg [at] @unicamp [.] br", role = c("aut", "cre"))
+Description: Organizes and formats a coauthor list with affiliations for use in scientific manuscripts, producing both Word and HTML output.
+Depends: R (>= 4.0.0)
+Imports: tidyverse, readxl, officer
+License: MIT
+Encoding: UTF-8
+LazyData: true
