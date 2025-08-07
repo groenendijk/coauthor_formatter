@@ -1,7 +1,7 @@
 # Co-author Affiliation Formatter
 
-After having manually edited a list of ca. 75 co-authors (for Zuidema et al. 2022; https://doi.org/10.1038/s41561-022-00911-8), 
-I created an R script that organizes and formats a list of coauthors and their institutional affiliations for use in scientific publications. 
+After having manually edited a list of ca. 75 co-authors (for Zuidema et al. 2022; https://doi.org/10.1038/s41561-022-00911-8), I created an R script that organizes and formats a list of coauthors and their institutional affiliations for use in scientific publications. 
+Worked well when applied to a list of 150+ authors 😎: https://doi.org/10.1126/science.adq6607; and https://doi.org/10.1016/j.quascirev.2025.109233
 
 It produces two output formats:
 - A Word document with properly superscripted affiliations
@@ -92,7 +92,7 @@ the "enconding" in R when loading the file.
 ## ✅ Output Files
 
 - `output_author_list.docx`: Word file with formatted authors and affiliations
-- HTML string: copied to clipboard (can be pasted in Word via online editor)
+- HTML string: copies to clipboard, can then be pasted in Word via online editor (e.g., www.w3schools.com/html/tryit.asp?filename=tryhtml_editor)
 
 ---
 
